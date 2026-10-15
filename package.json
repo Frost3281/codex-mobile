@@ -1,6 +1,6 @@
 {
   "name": "@brutalstrikedevs/codexapp",
-  "version": "0.1.91",
+  "version": "0.1.91-authfix.1",
   "description": "A lightweight web interface for Codex that runs on top of the Codex app-server, allowing remote access from any browser",
   "type": "module",
   "license": "MIT",
@@ -35,7 +35,8 @@
     "dist-cli/",
     "scripts/dev.cjs",
     "scripts/dev-random-home.cjs",
-    "scripts/fix-pty-native-build.cjs"
+    "scripts/fix-pty-native-build.cjs",
+    "npm-shrinkwrap.json"
   ],
   "pnpm": {
     "onlyBuiltDependencies": [
